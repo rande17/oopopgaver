@@ -15,7 +15,12 @@ public class OOPopgaver {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        //make an instance of the Investment class
+        Investment invest = new Investment();
+        
+        //getting a
+        System.out.println(invest.futureInvestmentValue(invest.getInvestDouble(), invest.getIntrestDouble(), invest.getYearsInt()));
     }
-    
+
 }
