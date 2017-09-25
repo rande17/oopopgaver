@@ -19,7 +19,7 @@ public class OOPopgaver {
         //make an instance of the Investment class
         Investment invest = new Investment();
         
-        //getting a
+        //using the methods in invest to print out the result
         System.out.println(invest.futureInvestmentValue(invest.getInvestDouble(), invest.getIntrestDouble(), invest.getYearsInt()));
     }
 
