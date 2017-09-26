@@ -12,8 +12,8 @@ import java.util.Scanner;
  * @author clutt
  */
 public class Investment {
-
     
+
     /**
      * 
      * @param investmentAmount amount that the users wants to invest
