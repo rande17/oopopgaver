@@ -38,6 +38,11 @@ public class OOPopgaver {
                     //using the methods in invest to print out the result
                     System.out.println(invest.futureInvestmentValue(invest.getInvestDouble(), invest.getIntrestDouble(), invest.getYearsInt()));
                     break;
+                case "9.1":
+                    NineOne nineOne = new NineOne();
+                    nineOne.run();
+                    break;
+                
                 case "q":
                 case "quit":
                 case "exit":
