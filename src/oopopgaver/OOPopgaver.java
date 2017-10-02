@@ -42,13 +42,20 @@ public class OOPopgaver {
                     NineOne nineOne = new NineOne();
                     nineOne.run();
                     break;
-                
+                case "10.3":
+                    System.out.print("Indtast et hel tal: ");
+                    int n = iScn.nextInt();
+                    MyInterger mi = new MyInterger(n);
+                    System.out.println("Er tallet lige? " + mi.isOdd());
+                    System.out.println("Er tallet ulige? " + mi.isEven());
+                    System.out.println("Er tallet et primtal? " + mi.isPrime());
+
                 case "q":
                 case "quit":
                 case "exit":
                     bob = false;
                     break;
-                    
+
             }
 
         }
